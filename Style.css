@@ -1,0 +1,109 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f8f8;
+  color: #fff;
+}
+
+/* Header */
+header {
+  background: #2563eb;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header nav {
+  margin-top: 20px;
+}
+
+header nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#tentang {
+  background: #1e3a8a;
+}
+
+#skill {
+  background: #111827;
+}
+
+#portfolio {
+  background: #1f2937;
+}
+
+#kontak {
+  background: #111827;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.foto-profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  border: 4px solid white;
+}
+
+/* Portfolio */
+.project {
+  background: #2563eb;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.project a {
+  color: yellow;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  font-size: 14px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .project {
+    max-width: 90%;
+  }
+}
